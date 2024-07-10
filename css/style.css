@@ -1,0 +1,148 @@
+/* CSS Reset */
+* {
+    margin:0;
+    padding: 0;
+    box sizing: border-box;
+}
+
+/* Generics */
+body {
+    background-color: #F6F8F9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 70px;
+    background-color: #fff;
+    line-height: 70px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1 {
+    vertical-align: middle;
+    display: inline;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+h3 {
+    padding-top: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Utilities */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Card */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+}
+.card-header {
+    border-bottom: 2px solid #F6F8F9 ;
+    padding: 25px 35px;
+}
+.card-body {
+    padding: 25px 35px;
+}
+
+/* Buttons */
+.button {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.btn-blue {
+    color: #fff;
+    background-color: #1E90FF;
+    border: 1px solid transparent;
+}
+
+.btn-white {
+    color: #8A8A8A;
+    background-color: #fff;
+    border: 1px solid #8A8A8A;
+}
+
+/* Lists */
+
+.tasks {
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+
+}
+
+.task-check{
+    color: #3E9E3F;
+    border: 1px solid #3E9E3F;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.task-check.ok {
+    color: #3E9E3F;
+    border: 1px solid #3E9E3F;
+}
+
+.task-check.nok {
+    color: #FF2F36;
+    border: 1px solid #FF2F36;
+
+}
+.task-text {
+    vertical-align: middle;
+}
+
+/* Task Ticket */
+.task-ticket {
+    vertical-align: middle;
+    color:#fff;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.task-ticket.editorial {
+    background-color: #45ABEA;
+}
+
+.task-ticket.q1-goals {
+    background-color: #9C72E4;
+}
+
+.task-ticket.recruiting {
+    background-color: #64C0A9;
+}
+
+.task-ticket.mobile {
+    background-color: #F29E33;
+}
+
+.task-ticket.website {
+    background-color: #D863A1;
+}
+
+.task-ticket.sales {
+    background-color: #B0C925;
+}
+
+
